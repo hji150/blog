@@ -1,0 +1,78 @@
+* {
+	word-break: keep-all;
+}
+
+header {
+	border: 2px solid lightpink;
+	text-align: center;
+}
+
+nav {
+	border: 1px solid lightpink;
+}
+
+h1 {
+	color: deeppink;
+}
+
+h2 {
+	border: 2px solid lightpink;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+    /*width: 200px;*/
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+    padding: 10px;
+	justify-content: space-evenly;
+	/*border: 1px solid purple;*/
+}
+
+
+li {
+	color: deeppink;
+	list-style: none;
+	/*border: 1px solid purple;*/
+}
+
+article{
+	/*border: 3px solid purple;*/
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+}
+section {
+	 border: 1px solid pink;
+	 width: 800px;
+	 margin: 0 auto;
+}
+
+.secgroup {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 800px;
+	/*border: 1px solid green;*/
+}
+
+.pink {
+	color: hotpink;
+}
+
+
+nav {
+	border: 1px solid lightpink;
+}
+
+footer {
+	text-align: center;
+	color: gray;
+}
+
+.size-img {
+  width: 700px;
+  height: auto;
+}
