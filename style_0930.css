@@ -76,3 +76,18 @@ footer {
   width: 700px;
   height: auto;
 }
+
+@media screen and (max-width: 900px) {
+.secgroup {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  width: 90%;
+	align-items: center;
+	/*border: 1px solid green;*/
+}
+
+.size-img {
+  width: 90%;
+  height: auto;
+}
